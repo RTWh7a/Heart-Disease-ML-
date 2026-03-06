@@ -1,43 +1,21 @@
-# Heart-Disease-ML-
-Heart Disease Classification & Analysis 🩺
-This project implements a comprehensive machine learning pipeline to predict the presence of heart disease using clinical data. It evaluates multiple classification algorithms, applies dimensionality reduction, and explores data structures through unsupervised clustering.
+# MIT-License
 
-📊 Project Overview
-The primary goal is to compare various machine learning models to determine which algorithm best predicts heart disease based on patient attributes (age, sex, chest pain type, cholesterol levels, etc.).
+Copyright (c) 2025 Ahmed Hany
 
-🛠️ Key Features
-Exploratory Data Analysis (EDA): Visualizes data distribution using Boxplots, Scatter plots, Pie charts, and Count plots to understand gender distribution and heart disease prevalence.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Preprocessing: Includes handling missing values, standardizing features using StandardScaler, and splitting data into training and testing sets.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Predictive Modeling: Implements and evaluates six different classifiers:
-
-Logistic Regression
-
-Naive Bayes
-
-Random Forest
-
-K-Nearest Neighbors
-
-Decision Tree (with visualization)
-
-Support Vector Machine (SVM)
-
-Performance Metrics: Detailed evaluation using Accuracy, Precision, Recall, F1-Score, and Confusion Matrices for every model.
-
-Unsupervised Learning:
-
-PCA (Principal Component Analysis): Reduced feature dimensionality while retaining 95% variance.
-
-K-Means & Hierarchical Clustering: Explores natural groupings in the data through centroids and dendrograms.
-
-Model Diagnostics: Generates Learning Curves to detect overfitting/underfitting and Feature Importance plots to identify which clinical factors drive the predictions.
-
-🚀 Technologies Used
-Language: Python
-
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Scipy
-
-📈 Results Summary
-The script automatically identifies and prints the best-performing model based on testing accuracy, ensuring the most reliable predictor is highlighted for the specific dataset.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
